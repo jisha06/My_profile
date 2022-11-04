@@ -12,15 +12,16 @@ body
 header
 {
     background-color: #E4F9F5;
+    
 }
 
 h1
 {
-  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
   line-height: 2;
   text-align: center; 
+  float: inline-start;
 }
 
 h2
@@ -66,6 +67,7 @@ nav a:hover
 div
 {
     background-color: #E4F9F5;
+    margin-top: auto;
    
 }
 .skills
@@ -83,3 +85,32 @@ footer
     margin-top: 5%;
     padding-top: 6px;
 }
+
+form
+{
+    margin-left: 5%;
+}
+
+
+.btn {
+    border: none;
+    background-color: #2196F3;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+
+/* Blue */
+.info {
+    color: black;
+}
+
+.info:hover {
+    background: #063861;
+    color: white;
+}
+
+
